@@ -22,6 +22,7 @@ a{
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
+    transition: transform 0.4s;
 
 }
 
@@ -32,6 +33,10 @@ a:before{
     width: 10px;
     height: 10px;
 }
+a:hover{
+    color: #D9981E;
+    transform: scale(1.07);
+}
 
 
 #button{
@@ -40,9 +45,10 @@ a:before{
     padding: 18px 20px;
     box-shadow: 5px 5px 0px black;
     margin-right: 0px;
+    transition: transform 0.4s;
 }
 #button:hover{
-    content: ">>";
+    transform: scale(1.07);
     background-color: #39424e;
     transition-duration: 0,9s;
     cursor: pointer;
