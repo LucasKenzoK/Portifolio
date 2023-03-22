@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Mono:ital,wght@0,400;1,100&display=swap');
+
+body{
+    background-color: #262626;
+}
+
+a:hover {
+    color: #A63737;
+}
+
+.cabecalho {
+    border-radius: 25px;
+    background-color: #617C8C;
+    margin: 10px;
+}
+
+.logo-png {
+    padding: 15px;
+    margin-left: 20px;
+    float: left;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.nav-cab{
+    height: 120px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 45px;
+    gap: 25px
+}
+
+.link{
+    color: #262626;
+    background-color: #B6E1F2;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.introducao{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    background-color: #617C8C;
+}
+
+.cont-intro{
+    background-color: #B6E1F2;
+    border-radius: 25px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+}
+
+.nome-intro{
+    color: #A63737;
+    padding-bottom: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 68px;
+}
+
+.par-intro{
+    color: #262626;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 38px;
+}
+
+.eu-png{
+    display: flex;
+    height: 800px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.hs-skills {
+    gap: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hard-skills{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #617C8C;
+    align-self: flex-start;
+}
+
+.soft-skills{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #617C8C;
+}
+
+.skills-titulo{
+    color: #A63737;
+    background-color: #B6E1F2;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 68px;
+}
+
+
+.skills{
+    padding: 5px;
+    margin: 10px;
+    color: #262626;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    background-color: #B6E1F2;
+    border-radius: 10px;
+}
+
+.roda-pe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    background-color: #617C8C;
+    border-radius: 15px;
+    height: 70px;
+}
+
+.contato {
+    color: #262626;
+    background-color: #B6E1F2;
+    border-radius: 10px;
+    padding: 5px;
+    height: 20px;
+}
